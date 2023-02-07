@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Assignment 3</title>
+    </head>
+    <body>
+        <style>form * {padding:2px; margin:5px;}</style>
+        <form style="padding:10px;">
+        <label  for="name">Enter full name*:</label> <input type="text" name="name" placeholder="Enter name" required><br>
+        <label >Enter email*:</label> <input type="text" name="email" placeholder="Enter Email" required><br>  
+        <label >Enter password*:</label> <input type="password" name="password" required><br>
+        <label >Enter DOB:</label> <input type="date" name="dob"><br>
+        <label>Enter gender:</label><br>  
+        <input type="radio" name="gender" value="male" checked/>Male  <br>  
+        <input type="radio" name="gender" value="female"/>Female <br/>    
+        <input type="radio" name="gender" value="others"/>Others <br/>
+        <label>Enter address:</label><br> 
+        <textarea placeholder="Enter address"></textarea> <br/>
+        <label>Enter Discount Code:</label> <input type="date" name="discount"><br>
+        <label>Enter subjects*:</label><br> 
+        <select name="subjects" required><option>Computers</option><option>Maths</option><option>Physics</option><option>Arts</option></select> <br/>
+        <label>Enter teachers:</label><br>
+        <input type="checkbox" id="teach1" name="teachers" value="deba"/>Deba 
+        <input type="checkbox" id="teach2" name="teachers" value="abhik"/>Abhik
+        <input type="checkbox" id="teach3" name="teachers" value="shivam"/>Shivam  <br>
+        <input type="submit" value="Register">
+        <input type="button" value="Cancel">
+        </form>
+    </body>
+</html>
